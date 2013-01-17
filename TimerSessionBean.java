@@ -1,10 +1,7 @@
 /*
- * Copyright 2007 Sun Microsystems, Inc.
- * All rights reserved.  You may not modify, use,
- * reproduce, or distribute this software except in
- * compliance with  the terms of the License at:
- * http://developer.sun.com/berkeley_license.html
- */
+Karan Thaker
+Session Bean - Timer
+*/
 
 
 package com.sun.tutorial.javaee.ejb.timersession;
@@ -18,11 +15,9 @@ import javax.ejb.TimerService;
 
 
 /**
- * TimerBean is a stateless session bean that creates a timer and prints out a
- * message when a timeout occurs.
- * Created Jan 9, 2006 3:44:08 PM
- * @author ian
- */
+This bean creates a timer and prints out a message when a timeout occurs.
+*/
+
 @Stateless
 public class TimerSessionBean implements TimerSession {
     private static final Logger logger = Logger.getLogger(
